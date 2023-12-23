@@ -6,7 +6,7 @@ import Error from "./components/Error";
 import Loading from "./components/Loading";
 import { faL } from "@fortawesome/free-solid-svg-icons";
 
-const API_URL = 'http://www.omdbapi.com/?apikey=49c4a48b'
+const API_URL = 'https://www.omdbapi.com/?apikey=49c4a48b'
 
 const App = () => {
     const [search, setSearch] = useState(null);
